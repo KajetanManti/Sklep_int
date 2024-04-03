@@ -1,0 +1,32 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: coral;
+}
+#logo{
+    height: 10rem;
+    width: 15rem;
+}
+#Koszyk{
+    height: 5rem;
+    width: 5rem;
+
+}
+.flex-container{
+    display: flex;
+   
+}
+.flex-container-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.topnav{
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 20rem;
+    height: 20rem;
+    background-color: rgba(55, 60, 94, 0.315);
+    margin:0.35rem;
+    text-align: center;
+}
