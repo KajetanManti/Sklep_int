@@ -18,30 +18,13 @@
     </header>
 
     <main class='flex-container-wrap'>
-        <div class='card'>
-        <h3>Nazwa oferty</h3>
-            <p>Cena:1600zł<p>
-        </div>
-        <div class='card'>
-        <h3>Nazwa oferty</h3>
-            <p>Cena:1200zł<p>
-        </div>
-        <div class='card'>
-        <h3>Nazwa oferty</h3>
-            <p>Cena:1000zł<p>
-        </div>
-        <div class='card'>
-        <h3>Nazwa oferty</h3>
-            <p>Cena:800zł<p>
-        </div>
-        <div class='card'>
-        <h3>Nazwa oferty</h3>
-            <p>Cena:1020zł<p>
-        </div>
-        <div class='card'>
-        <h3>Nazwa oferty</h3>
-            <p>Cena:100zł<p>
-        </div>
+
+    
+        <?php
+            include "display-products.php" ;
+
+        ?>
+
     </main>
  
 </body>
