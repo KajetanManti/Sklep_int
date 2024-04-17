@@ -15,7 +15,7 @@
         while ($row = $result->fetch_assoc()) {
             echo"<div class='card'>";
             echo "<h3>".$row["Nazwa"]."</h3>";
-            echo "<p>".$row["Cena"]."</p>";
+            echo "<p>".$row["Cena"]."zł</p>";
 
             echo "</div>";
         }
